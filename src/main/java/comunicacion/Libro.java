@@ -28,7 +28,7 @@ public class Libro extends Escrito{
 				super.getPaginas()+"\n"+
 				getCo_autor() +"\n"+
 				getEditorial() +"\n"+
-				getEdicion() +"\n";
+				getEdicion();
 	}
 	public String getEditorial() {
 		return editorial;
