@@ -13,7 +13,7 @@ public class Fabula extends Escrito {
 	}
 	
 	public int palabrasTotales(int palabras) {
-		return (super.getPaginas())*1;
+		return (super.getPaginas())*1*palabras;
 	}
 	public String interpretacion() {
 		return interpretacion;

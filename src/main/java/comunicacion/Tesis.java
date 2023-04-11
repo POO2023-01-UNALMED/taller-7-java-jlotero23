@@ -18,7 +18,7 @@ public class Tesis extends Escrito {
 	}
 	
 	public int palabrasTotales(int palabras) {
-		return (super.getPaginas())*5;
+		return (super.getPaginas())*5*palabras;
 	}
 	public String interpretacion() {
 		return interpretacion;
